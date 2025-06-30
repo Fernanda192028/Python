@@ -1,0 +1,74 @@
+1. Comandos de saída: print()
+
+O que é?
+Função usada para mostrar algo na tela.
+
+Exemplo:
+print("Olá mundo!")
+
+2. Entrada de dados: input()
+
+O que é?
+Função usada para ler informações do usuário via teclado.
+
+Exemplo:
+
+nome = input("Digite seu nome: ")
+Lembrando: o input() sempre retorna uma string, então é preciso converter se quiser trabalhar com números (veja abaixo).
+
+3. Conversão de tipos
+Por que?
+Para fazer contas, é necessário converter a entrada de texto para int ou float.
+
+Exemplos:
+
+idade = int(input("Digite sua idade: "))       
+# Número inteiro
+altura = float(input("Digite sua altura: "))   
+# Número com decimais
+
+4. Operadores matemáticos
+O que são?
+Símbolos que realizam operações.
+
+Operador	Função	Exemplo
++	Soma	2 + 3 = 5
+-	Subtração	5 - 1 = 4
+*	Multiplicação	4 * 2 = 8
+/	Divisão (float)	10 / 2 = 5.0
+**	Potência	3 ** 2 = 9
+%	Módulo (resto)	5 % 2 = 1
+
+5. Condicionais: if / elif / else
+O que é?
+Permite decidir o que o programa faz, dependendo de uma condição.
+
+Exemplo:
+
+if idade >= 18:
+    print("Maior de idade")
+else:
+    print("Menor de idade")
+
+
+6. Operadores relacionais
+Usados para comparar valores dentro das estruturas if:
+
+Operador	Significado	Exemplo
+==	Igual a	x == 10
+!=	Diferente de	x != 5
+>	Maior que	x > 3
+<	Menor que	x < 100
+>=	Maior ou igual	x >= 18
+<=	Menor ou igual	x <= 60
+
+7. Formatando resultados
+Para mostrar números com casas decimais, usamos:
+
+Exemplo com round():
+
+print(round(imc, 2))  # Arredonda para 2 casas
+
+Exemplo com f-string:
+
+print(f"IMC = {imc:.2f}")  # mostra 2 casas
