@@ -22,6 +22,15 @@ Finalmente, Python é portátil: pode ser executado em várias variantes do Unix
 Este repositório tem como objetivo ajudar pessoas que estão iniciando o aprendizado de Python, bem como aquelas que desejam relembrar conceitos básicos.
 
 
+## Inspiração deste repositório
+
+Este repositório foi inspirado no curso **Python para Zumbis** e em exercícios de **Nick Parlante (CodingBat)**.
+
+🔗 [Repositório do curso Python para Zumbis](https://github.com/fmasanori/PPZ)
+
+💡 Parte dos exercícios e ideias foram adaptadas com base no conteúdo dos autores acima. Todos os direitos pertencem aos respectivos criadores.
+
+❗ Atenção alguns exercícios são de minha autoria 
 
 ## Quer saber mais sobre o Python?
 
