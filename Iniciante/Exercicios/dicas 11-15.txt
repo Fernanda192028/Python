@@ -1,0 +1,70 @@
+1. for – Laço de repetição
+ O que é:
+O for serve para repetir um bloco de código para cada item de uma lista, string, ou intervalo de números.
+
+💡 Exemplo:
+Python
+numeros = [10, 20, 30]
+for n in numeros:  # faça algo com o item
+    print(n)
+Saída:
+10
+20
+30
+
+
+Você também pode somar com for:
+Python
+soma = 0
+for n in numeros:
+    soma += n
+print(soma)  # 60
+
+
+
+2. sorted() – Ordena listas (sem alterar a original)
+
+O que é:
+A função sorted() cria uma nova lista ordenada (em ordem crescente por padrão), sem modificar a lista original.
+
+💡 Exemplo:
+python
+lista = [3, 1, 5, 2]
+nova_lista = sorted(lista)
+
+print(nova_lista)  # [1, 2, 3, 5]
+print(lista)       # [3, 1, 5, 2] → original permanece igual
+Você pode usar sorted(lista, reverse=True) para ordem decrescente.
+
+
+3. len() – Tamanho da lista
+ O que é:
+A função len() retorna a quantidade de elementos em uma lista, string ou outro tipo de sequência.
+
+💡 Exemplo:
+python
+lista = [10, 20, 30, 40]
+tamanho = len(lista)
+print(tamanho)  # 4
+
+
+
+4.Posições em listas
+ O que é:
+Cada elemento em uma lista tem uma posição, chamada de índice.
+No Python, os índices começam em 0.
+
+💡 Exemplo:
+python
+lista = ['a', 'b', 'c', 'd']
+
+print(lista[0])  # 'a' (primeiro elemento)
+print(lista[1])  # 'b'
+print(lista[-1]) # 'd' (último elemento, usando índice negativo)
+
+
+Você também pode usar o índice para pegar o elemento do meio:
+
+💡 Exemplo:
+python
+Meio = lista[len(lista) // 2]

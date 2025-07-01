@@ -12,3 +12,8 @@
 | 8         | Autoria própria    |
 | 9         | Python para Zumbis |
 | 10        |  Autoria própria   |
+| 11        | Python para Zumbis |
+| 12        | Python para Zumbis |
+| 13        |  Autoria própria   |
+| 14        |  Autoria própria   |
+| 15        |  Autoria própria   |

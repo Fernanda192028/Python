@@ -1,0 +1,48 @@
+1.O que é a biblioteca math em Python?
+A biblioteca math é um módulo padrão do Python, ou seja, já vem instalado e pronto para uso. Ela fornece funções matemáticas definidas pelo padrão da linguagem C, como:
+
+funções trigonométricas (sin, cos, tan);
+
+exponenciais e logarítmicas (exp, log);
+
+arredondamento (ceil, floor);
+
+raiz quadrada (sqrt);
+
+constantes como math.pi (π) e math.e (número de Euler).
+
+
+
+Exemplo com math.sqrt()
+A função math.sqrt(x) retorna a raiz quadrada de x.
+
+Importante: O valor de x deve ser positivo ou zero.
+
+
+Python---------------------------------------------
+import math
+
+numero = 16
+raiz = math.sqrt(numero)
+print("A raiz quadrada de", numero, "é", raiz)
+
+
+
+Saída----------------------------------------------
+A raiz quadrada de 16 é 4.0
+
+
+2.Como converter um número para string em Python?
+A conversão de um número para string pode ser feita com a função str().
+
+Python---------------------------------------------
+numero = 123
+texto = str(numero)
+print("O número como texto é:", texto)
+
+
+Saída----------------------------------------------
+
+O número como texto é: 123
+
+
